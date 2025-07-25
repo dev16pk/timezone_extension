@@ -1,0 +1,20 @@
+{
+  "name": "shell-app",
+  "version": "1.0.0",
+  "description": "Piral shell application",
+  "main": "src/index.tsx",
+  "scripts": {
+    "start": "piral debug",
+    "build": "piral build"
+  },
+  "dependencies": {
+    "piral": "^0.15.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}
